@@ -1,0 +1,89 @@
+{
+  "frontend":
+  [
+    {
+      "id":1,
+      "name":"HTML",
+      "subcategory":null,
+      "isMain":true,
+      "isChild":false,
+      "level":"intermedio",
+      "description":"null",
+      "image":"./assets/html_100x100.png"
+    },
+    {
+      "id":2,
+      "name":"CSS3",
+      "subcategory":"css3",
+      "isMain":true,
+      "isChild":true,
+      "level":"intermedio",
+      "description":"especifidad, grid, flex, funciones calc() y clamp(), animaciones, media-queries",
+      "image":"./assets/css3_100x100.png"
+    },
+    {
+      "id":3,
+      "name":"SASS",
+      "subcategory":"css3",
+      "isMain":false,
+      "isChild":true,
+      "level":"intermedio",
+      "description":"modulos, variables, mixins, @use, placeholder class",
+      "image":"./assets/sass_133x100.png"
+    },
+    {
+      "id":4,
+      "name":"BEM",
+      "subcategory":"css3",
+      "isMain":false,
+      "isChild":true,
+      "level":"intermedio",
+      "description":null,
+      "image":"./assets/bem_148x100.png"
+    },
+    {
+      "id":5,
+      "name":"Bootstrap",
+      "subcategory":"css3",
+      "isMain":false,
+      "isChild":true,
+      "level":"básico",
+      "description":null,
+      "image":"./assets/bootstrap_121x120.png"
+    },
+    {
+      "id":6,
+      "name":"JavaScript EcmaScript 2017",
+      "subcategory":"javascript",
+      "isMain":true,
+      "isChild":true,
+      "level":"intermedio",
+      "description":"condicionales, loops, destructuración, json, class, manejadores de eventos, ajax, APIs",
+      "image":"./assets/js_100x100.png"
+    },
+    {
+      "id":7,
+      "name":"React",
+      "subcategory":"javascript",
+      "isMain":false,
+      "isChild":true,
+      "level":"intermedio",
+      "description":"jsx, componentes, hooks (useState, useEffect, useReducer, useCallBack, useMemo), ReactRouter",
+      "image":"./assets/react_92x100.png"
+    }
+  ],
+  "backend":
+  [
+    {
+      "id":8,
+      "name":"PHP",
+      "subcategory":"PHP",
+      "isMain":true,
+      "isChild":true,
+      "level":"intermedio",
+      "description":"jsx, componentes, hooks (useState, useEffect, useReducer, useCallBack, useMemo), ReactRouter",
+      "image":"./assets/react_92x100.png"
+
+    }
+  ]
+}
